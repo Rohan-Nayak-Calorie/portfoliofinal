@@ -1,0 +1,105 @@
+/* @import url('https://rsms.me/inter/inter.css'); */
+
+
+*,*::after,::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Inter var', sans-serif;
+  scroll-behavior: smooth;
+}
+
+li{
+  list-style: none;
+  
+}
+
+.navbar{
+  padding-top:2%;
+  padding-bottom:2%;
+  
+  
+}
+
+.navbar-nav li a
+{
+  float:right;
+  text-align: left;
+  
+}
+
+.navbar-toggler{
+  outline:none !important;
+  border: none;
+}
+
+/* section1 */
+
+.heading-intro{
+  padding-top:3%;
+  padding-bottom:3%;
+  text-justify: hyphens;
+  
+}
+
+.qualities {
+  padding: top 3%;
+  padding-bottom:3%;
+  color: grey;
+  line-height: 2.5rem;
+}
+
+.button{
+  padding-top:3%;
+  padding-bottom:3%;
+  
+}
+.col-md-4{
+  padding-top:3%;
+  padding-bottom:3%; 
+ 
+}
+
+.heading-intro{
+  line-height: 3rem;
+}
+
+.Hello{
+ font-size: 3rem;
+}
+
+.sect{
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+.align-miidle{
+  display: flex;
+  align-items: center;
+}
+
+.qualitieslist{
+  list-style-type: upper-roman;
+  padding: top 3%;
+  padding-bottom:3%;
+  color: grey;
+  line-height: 2.2rem;
+
+}
+
+
+
+  
